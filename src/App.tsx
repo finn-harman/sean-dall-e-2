@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import sean from './seanProfilePicture.jpg';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 const MAX_PHOTO_COUNT = 17;
