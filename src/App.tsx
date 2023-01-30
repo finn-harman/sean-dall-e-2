@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={path} onClick={() => setPhotoCount(photoCount + 1)} />
+        <img src={path} onClick={() => setPhotoCount(photoCount + 1)} style={{cursor: "pointer"}} />
       </header>
     </div>
   );
